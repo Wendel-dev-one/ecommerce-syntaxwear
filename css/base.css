@@ -4,6 +4,12 @@ body {
     color: #333333;
 }
 
+main {
+    padding: 2.5rem 0 0;
+    max-width: 1360px;
+    margin: 0 auto;
+}
+
 .btn {
     font-size: 1.25rem;
     width: 161px;
@@ -24,7 +30,7 @@ body {
 .btn-outline:hover {
     color: #6329A2;
     border-color: #6329A2;
-    background-color: #ffffffd9;
+    background-color: #ffffffce;
 }
 
 .btn-filled {
