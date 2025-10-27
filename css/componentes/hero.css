@@ -44,7 +44,7 @@
 @media (max-width: 768px) {
     .hero-section {
         height: 660px;
-        background-image: url(../../images/products/card_imagem.jpg);
+        background-image: url(../../images/banners/hero-mobile.jpg);
     }
 
     .hero-overlay {

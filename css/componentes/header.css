@@ -9,7 +9,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0.313rem 1.25rem;
+    padding: 0.265rem 1.25rem;
     background-color: #ffffff;
 }
 
@@ -79,7 +79,7 @@
 
 @media (max-width: 1280px) {
     .header {
-        width: calc(100% - 40px);
+        width: calc(100% - 35px);
     }
 
     .menu-icon {
@@ -122,7 +122,7 @@
 
     .nav-center a, .nav-right a {
         width: 100%;
-        border-bottom: 1px solid #eeeeee;
+        border-bottom: 1px solid #d3d3d3da;
         padding: 0.3rem 0;
         font-size: 1rem;
         display: block;
@@ -130,5 +130,11 @@
 
     .menu-toggle:checked ~ .nav-container {
         right: 0;
+    }
+}
+
+@media (min-width: 1504px) {
+    .header {
+        max-width: calc(1360px - 40px);
     }
 }
